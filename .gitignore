@@ -1,0 +1,35 @@
+# .gitignore (at project root)
+
+# ─── Node.js dependencies ─────────────────────────────────────────────────────
+/node_modules/
+/web/node_modules/
+
+# ─── Next.js build output ────────────────────────────────────────────────────
+.next/
+/web/.next/
+
+# ─── Environment & key files ─────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+/web/.env.local
+
+# ─── Python caches & virtual envs ────────────────────────────────────────────
+__pycache__/
+/*.py[cod]
+.venv/
+venv/
+
+# ─── Ingestion bookkeeping ───────────────────────────────────────────────────
+processed_files.json
+
+# ─── Vault directory (user‐generated markdown) ───────────────────────────────
+/vault/
+
+# ─── Logs & misc ─────────────────────────────────────────────────────────────
+*.log
+
+# ─── OS & Editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
